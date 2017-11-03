@@ -1,3 +1,69 @@
-form {
-    border: 1px black solid;
+* {
+    font-family: sans-serif;
+}
+body {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(233, 233, 233)
+}
+form, .table, .result{
+    border: 1px rgb(218, 205, 205) solid;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #FFF;
+    margin-bottom: 30px;
+} 
+hr{
+    color: rgb(44, 43, 43);
+    
+}
+.table {
+    width: 180px;
+    margin: 15px;
+}
+#checkboxTable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.revisionBox {
+    width: 100px;
+    margin: 0 15px;
+}
+h1 {
+    color: rgb(44, 43, 43);
+}
+
+h2 {
+    margin: 0;
+    margin-top: 15px;
+    color: rgb(100, 100, 100);
+}
+
+button {
+    border-radius: 5px;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+    margin: 15px;
+}
+
+.green {
+    color: green;
+    font-weight: bolder;
+}
+
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+.points {
+    font-weight: bolder;
+    font-size: 50px;
 }
